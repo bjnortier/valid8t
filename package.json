@@ -1,0 +1,30 @@
+{
+  "name": "valid8t",
+  "version": "0.1.0",
+  "description": "Javascript data structure validation.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "validation"
+  ],
+  "author": "Ben Nortier <ben@bjnortier.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isarray": "^3.0.4",
+    "lodash.isobject": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-loader": "^5.3.2",
+    "chai": "^2.1.2",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.2.1",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.2.1"
+  }
+}
